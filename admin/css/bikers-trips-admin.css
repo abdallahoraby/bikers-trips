@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+.meta-row {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: 2em 1em;
+}
+
+.meta-th {
+    flex: 0 0 20%;
+    text-align: right;
+}
+
+.meta-td {
+    flex: 0 0 80%;
+    text-align: right;
+}
+
+.meta-td input {
+    width: 100%;
+    text-align: center;
+}
+
+div#trip_info {
+    background: #00bcd4;
+    color: #fff;
+}
+
+#trip_info h2.hndle.ui-sortable-handle {
+    color: #fff !important;
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block;
+    font-weight: bold;
+}
+
+
